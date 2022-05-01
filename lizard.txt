@@ -1,0 +1,85 @@
+================================================
+  NLOC    CCN   token  PARAM  length  location  
+------------------------------------------------
+      10      3     53      1      10 E_ValidAirportID@31-40@airport.c
+       7      2     26      1       7 E_MAXAirports@42-48@airport.c
+      10      3     63      3      10 E_DuplicateAirport@50-59@airport.c
+       4      3     39      3       4 GenericAirportErrorHandler@61-64@airport.c
+      13      4     99      2      15 SortsAirports@68-82@airport.c
+      16      2    131      2      20 AirportAdder@84-103@airport.c
+       4      1     28      1       4 AirportPrinter@105-108@airport.c
+      27      7    154      2      29 ListAirport@110-138@airport.c
+      14      2    117      6      16 DateTimeToTimeStamp@32-47@datetime.c
+      37      6    286      2      46 PrintTimeStamp@49-94@datetime.c
+       3      1     24      3       3 TimeToTimeStamp@96-98@datetime.c
+      11      3     83      1      14 DateAdvancer@100-113@datetime.c
+      19      4    119      3      20 FlightRemover@37-56@eliminator.c
+      14      3     99      3      15 ReservationRemover@58-72@eliminator.c
+      13      2     73      2      14 SystemEliminator@74-87@eliminator.c
+      21      7    109      1      21 E_FlightCodeVerifier@32-52@flight.c
+      12      4     76      4      12 E_FlightExists_O0@54-65@flight.c
+      10      3     65      3      10 E_ValidAirport@67-76@flight.c
+       7      2     26      1       7 E_MAXFlights@78-84@flight.c
+       7      3     39      2       7 E_ValidFlightDate@86-92@flight.c
+       7      2     31      1       7 E_ValidDuration@94-100@flight.c
+       7      2     27      1       7 E_ValidCapacity@102-108@flight.c
+      13      8    112     11      15 GenericFlightErrorHandler@110-124@flight.c
+       4      1     33      1       4 FlightPrinter@128-131@flight.c
+      11      4     74      4      12 FlightFinderDate@133-144@flight.c
+       6      2     40      2       6 ListFlights@146-151@flight.c
+      44      6    360      5      56 FlightAdder@153-208@flight.c
+      11      3     68      3      11 AirportIDFinder@31-41@flightManipulators.c
+       5      1     29      2       5 SwapFlights@43-47@flightManipulators.c
+      11      4     94      2      11 DepartingFlightsSorter@49-59@flightManipulators.c
+       8      4    104      2       8 ArrivingFlightsSorter@61-68@flightManipulators.c
+      17      5    119      5      19 FlightListSelector@72-90@flightManipulators.c
+      29      6    248      5      38 ListDepartingOrArrivingFlights@92-129@flightManipulators.c
+       4      1     12      0       4 main@30-33@proj2.c
+       7      1     71      2      11 NewReservation@37-47@reservation.c
+       7      1     52      1       9 NewLink@49-57@reservation.c
+       4      1     21      1       4 FreeNode@59-62@reservation.c
+       9      3     57      2       9 Lookup@64-72@reservation.c
+      13      4     93      2      13 Delete@74-86@reservation.c
+       9      2     38      1       9 DeleteList@88-96@reservation.c
+      18      5    123      2      22 SortedInsert@98-119@reservation.c
+       6      2     47      1       6 PrintReservation@121-126@reservation.c
+      22      6    112      1      22 E_ValidReservationCode@37-58@reservationsManipulators.c
+       8      2     53      4       9 E_FlightExists_O1@60-68@reservationsManipulators.c
+      13      3     72      3      15 E_ReservationExists@70-84@reservationsManipulators.c
+       9      2     48      3      10 E_ReservationCapacityLimit@86-95@reservationsManipulators.c
+       9      3     37      2      10 E_ValidReservationDate@97-106@reservationsManipulators.c
+       7      2     26      1       7 E_ValidReservationCapacity@108-114@reservationsManipulators.c
+      15      7     96      8      16 GenericReservationErrorFunctions@116-131@reservationsManipulators.c
+      15      3    112      4      18 AddReservation@135-152@reservationsManipulators.c
+      28      5    205      3      36 ReservationAdder@154-189@reservationsManipulators.c
+       7      1     47      0       9 SystemStartAndInitializer@37-45@systemCore.c
+      43      3    194      3      44 SystemLoop@47-90@systemCore.c
+       6      2     42      2       6 SystemCleanUp@92-97@systemCore.c
+       4      1     25      2       4 SystemTerminate@99-102@systemCore.c
+       7      2     28      1       7 MemoryChecker@104-110@systemCore.c
+9 file analyzed.
+==============================================================
+NLOC    Avg.NLOC  AvgCCN  Avg.token  function_cnt    file
+--------------------------------------------------------------
+     97      11.4     3.1       74.1         8     airport.c
+     71      16.2     3.0      127.5         4     datetime.c
+     56      15.3     3.0       97.0         3     eliminator.c
+    156      12.4     3.7       82.7        12     flight.c
+     87      13.5     3.8      110.3         6     flightManipulators.c
+      9       4.0     1.0       12.0         1     proj2.c
+     84       9.1     2.4       62.8         8     reservation.c
+    137      14.0     3.7       84.6         9     reservationsManipulators.c
+     78      13.4     1.8       67.2         5     systemCore.c
+
+====================================================================================================
+!!!! Warnings (nloc > 30 or cyclomatic_complexity > 12 or length > 50 or parameter_count > 100) !!!!
+================================================
+  NLOC    CCN   token  PARAM  length  location  
+------------------------------------------------
+      37      6    286      2      46 PrintTimeStamp@49-94@datetime.c
+      44      6    360      5      56 FlightAdder@153-208@flight.c
+      43      3    194      3      44 SystemLoop@47-90@systemCore.c
+==========================================================================================
+Total nloc   Avg.NLOC  AvgCCN  Avg.token   Fun Cnt  Warning cnt   Fun Rt   nloc Rt
+------------------------------------------------------------------------------------------
+       775      12.5     3.1       83.2       56            3      0.05    0.18
