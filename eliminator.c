@@ -9,7 +9,7 @@
  *Created:
  *   April 19, 2022, 11:09:01 PM GMT+1
  *Last edited:
- *   April 28, 2022, 11:30:23 PM GMT+1
+ *   May 2, 2022, 4:20:04 PM GMT+1
  *
  *Description:
  *   Functions related to removing flights and reservations as declared

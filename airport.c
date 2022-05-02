@@ -9,7 +9,7 @@
  *Created:
  *   April 19, 2022, 11:05:58 PM GMT+1
  *Last edited:
- *   April 28, 2022, 11:30:46 PM GMT+1
+ *   May 2, 2022, 6:09:57 PM GMT+1
  *
  *Description:
  *   Airport related functions as decleared in "airports.h"
@@ -106,6 +106,7 @@ void AirportPrinter(Airport AirportST){
     printf("%s %s %s %d\n",AirportST.id,AirportST.city,
         AirportST.country,AirportST.num_flights_departing);
 }
+
 
 void ListAirport(Airport AirportST[],int airport_count){
     char temp_airportID[AIRPORT_ID];

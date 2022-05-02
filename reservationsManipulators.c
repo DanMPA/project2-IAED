@@ -9,7 +9,7 @@
  *Created:
  *   April 19, 2022, 11:17:20 PM GMT+1
  *Last edited:
- *   April 21, 2022, 4:20:48 PM GMT+1
+ *   May 2, 2022, 4:18:49 PM GMT+1
  *
  *Description:
  *   Reservation related functions as decleared in "reservation.h"
