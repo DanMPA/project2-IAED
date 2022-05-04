@@ -9,7 +9,7 @@
  *Created:
  *   April 19, 2022, 11:05:58 PM GMT+1
  *Last edited:
- *   May 2, 2022, 6:09:57 PM GMT+1
+ *   May 2, 2022, 6:35:00 PM GMT+1
  *
  *Description:
  *   Airport related functions as decleared in "airports.h"
